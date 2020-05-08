@@ -1,15 +1,18 @@
+
+$bgColor: green;
 body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: red;
-}
+    background-color: $bgColor;
 
 main {
     flex: 2;
-}
 
 section {
-    max-width: 800px;
+    max-width: 60vh + 20vh  ;
+    height: 20vh;
     margin: 50px auto;
+}
+}
 }
